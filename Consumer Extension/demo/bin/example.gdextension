@@ -4,7 +4,7 @@ entry_symbol = "consumer_example_library_init"
 compatibility_minimum = "4.1"
 
 [dependencies]
-provider_example = "*"  # Any version
+provider_example = "*"
 
 [libraries]
 ; Relative paths ensure that our GDExtension can be placed anywhere in the project directory.
